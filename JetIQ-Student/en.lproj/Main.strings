@@ -1,0 +1,183 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0TB-5V-gtm"; */
+"0TB-5V-gtm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1pi-XA-Omj"; */
+"1pi-XA-Omj.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Журнал Успішності"; ObjectID = "3jD-bR-LDK"; */
+"3jD-bR-LDK.title" = "Журнал Успішності";
+
+/* Class = "UILabel"; text = "User"; ObjectID = "42I-Q0-VtK"; */
+"42I-Q0-VtK.text" = "User";
+
+/* Class = "UITableViewSection"; headerTitle = "User"; ObjectID = "4q2-Ml-Luh"; */
+"4q2-Ml-Luh.headerTitle" = "User";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6EP-b0-uFI"; */
+"6EP-b0-uFI.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Залікова Книжка"; ObjectID = "6vZ-m9-AAs"; */
+"6vZ-m9-AAs.title" = "Залікова Книжка";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "70c-fO-hjN"; */
+"70c-fO-hjN.title" = "Master";
+
+/* Class = "UITabBarItem"; title = "Журнал Успішності"; ObjectID = "8lg-g5-g1Q"; */
+"8lg-g5-g1Q.title" = "Журнал Успішності";
+
+/* Class = "UILabel"; text = "Кредити:"; ObjectID = "9Yt-Ct-4Vs"; */
+"9Yt-Ct-4Vs.text" = "Кредити:";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "A1F-KT-9Vr"; */
+"A1F-KT-9Vr.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Subject"; ObjectID = "B0v-1o-aEc"; */
+"B0v-1o-aEc.title" = "Subject";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "BPt-dU-EBi"; */
+"BPt-dU-EBi.normalTitle" = "Log out";
+
+/* Class = "UITextField"; placeholder = "Nickname"; ObjectID = "BSG-VT-F9p"; */
+"BSG-VT-F9p.placeholder" = "Nickname";
+
+/* Class = "UITabBarItem"; title = "Налаштування"; ObjectID = "CBq-IC-b6j"; */
+"CBq-IC-b6j.title" = "Налаштування";
+
+/* Class = "UIViewController"; title = "LogInScreen"; ObjectID = "CoF-Je-YiH"; */
+"CoF-Je-YiH.title" = "LogInScreen";
+
+/* Class = "UISegmentedControl"; E5W-9A-bIk.segmentTitles[0] = "None"; ObjectID = "E5W-9A-bIk"; */
+"E5W-9A-bIk.segmentTitles[0]" = "None";
+
+/* Class = "UISegmentedControl"; E5W-9A-bIk.segmentTitles[1] = "First"; ObjectID = "E5W-9A-bIk"; */
+"E5W-9A-bIk.segmentTitles[1]" = "First";
+
+/* Class = "UISegmentedControl"; E5W-9A-bIk.segmentTitles[2] = "Second"; ObjectID = "E5W-9A-bIk"; */
+"E5W-9A-bIk.segmentTitles[2]" = "Second";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "Ehq-zF-j7e"; */
+"Ehq-zF-j7e.title" = "Master";
+
+/* Class = "UILabel"; text = "Форма:"; ObjectID = "Fec-On-69S"; */
+"Fec-On-69S.text" = "Форма:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "I1G-Up-UFr"; */
+"I1G-Up-UFr.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "Iqv-cA-Y5u"; */
+"Iqv-cA-Y5u.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "ItR-xY-gFF"; */
+"ItR-xY-gFF.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Оцінка"; ObjectID = "Its-QK-uHR"; */
+"Its-QK-uHR.text" = "Оцінка";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "JsW-Hv-MmH"; */
+"JsW-Hv-MmH.title" = "Master";
+
+/* Class = "UILabel"; text = "Select your subgroup:"; ObjectID = "KR1-Te-f5B"; */
+"KR1-Te-f5B.text" = "Select your subgroup:";
+
+/* Class = "UILabel"; text = "Subgroup"; ObjectID = "Kyh-Qe-ko8"; */
+"Kyh-Qe-ko8.text" = "Subgroup";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "L0J-dV-c8n"; */
+"L0J-dV-c8n.text" = "Label";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "L1a-7j-tC3"; */
+"L1a-7j-tC3.title" = "Master";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LNm-Mz-gHe"; */
+"LNm-Mz-gHe.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NEK-nj-SEw"; */
+"NEK-nj-SEw.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "TJl-1y-4z7"; */
+"TJl-1y-4z7.normalTitle" = "Log In";
+
+/* Class = "UILabel"; text = "Форма:"; ObjectID = "UF9-ga-cF1"; */
+"UF9-ga-cF1.text" = "Форма:";
+
+/* Class = "UINavigationItem"; title = "Налаштування"; ObjectID = "UJ7-jG-NW1"; */
+"UJ7-jG-NW1.title" = "Налаштування";
+
+/* Class = "UILabel"; text = "Дата:"; ObjectID = "Wi1-2o-3lg"; */
+"Wi1-2o-3lg.text" = "Дата:";
+
+/* Class = "UILabel"; text = "ECTS:"; ObjectID = "aB5-Sg-xxQ"; */
+"aB5-Sg-xxQ.text" = "ECTS:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bOn-Vn-YSC"; */
+"bOn-Vn-YSC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cKU-CG-kHy"; */
+"cKU-CG-kHy.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Subject"; ObjectID = "cVF-fp-pjJ"; */
+"cVF-fp-pjJ.title" = "Subject";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eP8-pg-73q"; */
+"eP8-pg-73q.text" = "Label";
+
+/* Class = "UILabel"; text = "Оцінка:"; ObjectID = "eVn-gr-axJ"; */
+"eVn-gr-axJ.text" = "Оцінка:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fRl-0k-WUh"; */
+"fRl-0k-WUh.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "fcC-JJ-PVc"; */
+"fcC-JJ-PVc.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "gUy-Tq-oBt"; */
+"gUy-Tq-oBt.text" = "0";
+
+/* Class = "UISegmentedControl"; hQs-yb-r8V.segmentTitles[0] = "None"; ObjectID = "hQs-yb-r8V"; */
+"hQs-yb-r8V.segmentTitles[0]" = "None";
+
+/* Class = "UISegmentedControl"; hQs-yb-r8V.segmentTitles[1] = "First"; ObjectID = "hQs-yb-r8V"; */
+"hQs-yb-r8V.segmentTitles[1]" = "First";
+
+/* Class = "UISegmentedControl"; hQs-yb-r8V.segmentTitles[2] = "Second"; ObjectID = "hQs-yb-r8V"; */
+"hQs-yb-r8V.segmentTitles[2]" = "Second";
+
+/* Class = "UITabBarItem"; title = "Розклад"; ObjectID = "hRe-ak-OOU"; */
+"hRe-ak-OOU.title" = "Розклад";
+
+/* Class = "UIBarButtonItem"; title = "Info"; ObjectID = "hap-uv-qzx"; */
+"hap-uv-qzx.title" = "Info";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hrF-J9-hbo"; */
+"hrF-J9-hbo.text" = "-";
+
+/* Class = "UILabel"; text = "Викладач:"; ObjectID = "nca-A9-81K"; */
+"nca-A9-81K.text" = "Викладач:";
+
+/* Class = "UITextField"; placeholder = "Dashed Login"; ObjectID = "qHm-l5-QXf"; */
+"qHm-l5-QXf.placeholder" = "Dashed Login";
+
+/* Class = "UILabel"; text = "Provide login data:"; ObjectID = "qmC-KY-QKf"; */
+"qmC-KY-QKf.text" = "Provide login data:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "tWX-7k-Lmw"; */
+"tWX-7k-Lmw.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Розклад"; ObjectID = "uSD-bJ-wwG"; */
+"uSD-bJ-wwG.title" = "Розклад";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uuH-HB-9ra"; */
+"uuH-HB-9ra.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "v1T-F6-LnG"; */
+"v1T-F6-LnG.text" = "0";
+
+/* Class = "UILabel"; text = "Оцінка"; ObjectID = "wFG-52-0mM"; */
+"wFG-52-0mM.text" = "Оцінка";
+
+/* Class = "UILabel"; text = "Бали:"; ObjectID = "xGY-Ox-FTg"; */
+"xGY-Ox-FTg.text" = "Бали:";
+
+/* Class = "UITabBarItem"; title = "Залікова Книжка"; ObjectID = "xNp-di-9Yn"; */
+"xNp-di-9Yn.title" = "Залікова Книжка";

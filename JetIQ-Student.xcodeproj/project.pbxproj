@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5004C41D21CD07C000D54D05 /* ScheduleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004C41C21CD07C000D54D05 /* ScheduleHelpers.swift */; };
+		5004C41E21CD09AB00D54D05 /* ScheduleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004C41C21CD07C000D54D05 /* ScheduleHelpers.swift */; };
+		5004C41F21CD09D400D54D05 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50665859218C780B001B561F /* Schedule.swift */; };
+		5004C42021CD0A1100D54D05 /* HelperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A1E14217F60C400D9B3ED /* HelperClasses.swift */; };
+		5004C42121CD0BDB00D54D05 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F6145218B46EB004B65AD /* Settings.swift */; };
+		5004C42321CD0C8B00D54D05 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5004C42221CD0C8B00D54D05 /* Utility.swift */; };
+		500AF0262195B2F5003E3E0A /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500AF0252195B2F5003E3E0A /* NotificationCenter.framework */; };
+		500AF0292195B2F5003E3E0A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500AF0282195B2F5003E3E0A /* TodayViewController.swift */; };
+		500AF02C2195B2F5003E3E0A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500AF02A2195B2F5003E3E0A /* MainInterface.storyboard */; };
+		500AF0302195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 500AF0242195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		500AF0362195B2F5003E3E0A /* SheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50383BD2218A3E580078B6C7 /* SheduleTableViewCell.swift */; };
+		500AF0392195BC13003E3E0A /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE80322174CF9D00E39453 /* Structs.swift */; };
+		500AF0402195CFA5003E3E0A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500AF03F2195CFA5003E3E0A /* Extensions.swift */; };
+		500AF0422195DE30003E3E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DD2A642170D2750006CDA8 /* Assets.xcassets */; };
+		500B17792189D4280013768E /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B17782189D4280013768E /* ScheduleTableViewController.swift */; };
+		500B177B2189DC0F0013768E /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B177A2189DC0F0013768E /* Updater.swift */; };
+		5011FCB02196D36300A2168A /* SuccessLogMasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011FCAF2196D36300A2168A /* SuccessLogMasterTableViewCell.swift */; };
+		5011FCB22196D3EF00A2168A /* SuccessLogMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011FCB12196D3EF00A2168A /* SuccessLogMasterTableViewController.swift */; };
+		5011FCB42196D4C100A2168A /* SuccessLogDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011FCB32196D4C100A2168A /* SuccessLogDetailTableViewController.swift */; };
+		5011FCB62196D53500A2168A /* SuccessLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011FCB52196D53500A2168A /* SuccessLog.swift */; };
+		5011FCB82196E52800A2168A /* SeccessLogDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011FCB72196E52800A2168A /* SeccessLogDetailTableViewCell.swift */; };
+		501AA09C218DDAB000FB11FB /* UserSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501AA09B218DDAB000FB11FB /* UserSettingsTableViewController.swift */; };
+		50383BD4218A3E590078B6C7 /* SheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50383BD2218A3E580078B6C7 /* SheduleTableViewCell.swift */; };
+		503EC1E621834452002B9830 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503EC1E521834452002B9830 /* Extensions.swift */; };
+		504F6146218B46EB004B65AD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F6145218B46EB004B65AD /* Settings.swift */; };
+		504F6148218B4FFA004B65AD /* SubgroupSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F6147218B4FFA004B65AD /* SubgroupSelectorViewController.swift */; };
+		504F8ADC2191FE6D00529D07 /* ScheduleInfoPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F8ADB2191FE6D00529D07 /* ScheduleInfoPopover.swift */; };
+		505A1E15217F60C400D9B3ED /* HelperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A1E14217F60C400D9B3ED /* HelperClasses.swift */; };
+		5066585A218C780B001B561F /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50665859218C780B001B561F /* Schedule.swift */; };
+		509D756621720D3C008C3AD1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D756521720D3C008C3AD1 /* LogInViewController.swift */; };
+		509D75682172148C008C3AD1 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509D75672172148C008C3AD1 /* LoginManager.swift */; };
+		50A35E27218DC90100BDF1B0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A35E26218DC90100BDF1B0 /* SettingsTableViewController.swift */; };
+		50DD2A592170D2740006CDA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD2A582170D2740006CDA8 /* AppDelegate.swift */; };
+		50DD2A5C2170D2740006CDA8 /* JetIQ_Student.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50DD2A5A2170D2740006CDA8 /* JetIQ_Student.xcdatamodeld */; };
+		50DD2A632170D2740006CDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DD2A612170D2740006CDA8 /* Main.storyboard */; };
+		50DD2A652170D2750006CDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DD2A642170D2750006CDA8 /* Assets.xcassets */; };
+		50DD2A682170D2750006CDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DD2A662170D2750006CDA8 /* LaunchScreen.storyboard */; };
+		50DD2A8C2170D3EF0006CDA8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD2A8B2170D3EF0006CDA8 /* TabBarController.swift */; };
+		50E1845221931125004BAAF2 /* MarkbookMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1845121931124004BAAF2 /* MarkbookMasterTableViewController.swift */; };
+		50E1845621931D76004BAAF2 /* Markbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1845521931D76004BAAF2 /* Markbook.swift */; };
+		50E18458219333B2004BAAF2 /* MarkbookDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E18457219333B2004BAAF2 /* MarkbookDetailTableViewController.swift */; };
+		50E1845A21933B0D004BAAF2 /* MarkbookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1845921933B0D004BAAF2 /* MarkbookTableViewCell.swift */; };
+		50EE80332174CF9D00E39453 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE80322174CF9D00E39453 /* Structs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		500AF02E2195B2F5003E3E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50DD2A4D2170D2730006CDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500AF0232195B2F5003E3E0A;
+			remoteInfo = "JetIQ-Schedule_Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		500AF0342195B2F5003E3E0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				500AF0302195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5004C41C21CD07C000D54D05 /* ScheduleHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHelpers.swift; sourceTree = "<group>"; };
+		5004C42221CD0C8B00D54D05 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		500AF0242195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JetIQ-Schedule_Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		500AF0252195B2F5003E3E0A /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		500AF0282195B2F5003E3E0A /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		500AF02B2195B2F5003E3E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		500AF02D2195B2F5003E3E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500AF0372195BA8D003E3E0A /* JetIQ-Student.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JetIQ-Student.entitlements"; sourceTree = "<group>"; };
+		500AF0382195BAE2003E3E0A /* JetIQ-Schedule_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JetIQ-Schedule_Widget.entitlements"; sourceTree = "<group>"; };
+		500AF03F2195CFA5003E3E0A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		500B17782189D4280013768E /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		500B177A2189DC0F0013768E /* Updater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		5011FCAF2196D36300A2168A /* SuccessLogMasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessLogMasterTableViewCell.swift; sourceTree = "<group>"; };
+		5011FCB12196D3EF00A2168A /* SuccessLogMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessLogMasterTableViewController.swift; sourceTree = "<group>"; };
+		5011FCB32196D4C100A2168A /* SuccessLogDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessLogDetailTableViewController.swift; sourceTree = "<group>"; };
+		5011FCB52196D53500A2168A /* SuccessLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessLog.swift; sourceTree = "<group>"; };
+		5011FCB72196E52800A2168A /* SeccessLogDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeccessLogDetailTableViewCell.swift; sourceTree = "<group>"; };
+		501AA09B218DDAB000FB11FB /* UserSettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsTableViewController.swift; sourceTree = "<group>"; };
+		50383BD2218A3E580078B6C7 /* SheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTableViewCell.swift; sourceTree = "<group>"; };
+		503EC1E521834452002B9830 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		504F6145218B46EB004B65AD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		504F6147218B4FFA004B65AD /* SubgroupSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubgroupSelectorViewController.swift; sourceTree = "<group>"; };
+		504F8ADB2191FE6D00529D07 /* ScheduleInfoPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInfoPopover.swift; sourceTree = "<group>"; };
+		505A1E14217F60C400D9B3ED /* HelperClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClasses.swift; sourceTree = "<group>"; };
+		50665859218C780B001B561F /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		509D756521720D3C008C3AD1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		509D75672172148C008C3AD1 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		50A35E26218DC90100BDF1B0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		50DD2A552170D2740006CDA8 /* JetIQ-Student.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JetIQ-Student.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DD2A582170D2740006CDA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50DD2A5B2170D2740006CDA8 /* JetIQ_Student.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JetIQ_Student.xcdatamodel; sourceTree = "<group>"; };
+		50DD2A622170D2740006CDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50DD2A642170D2750006CDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50DD2A672170D2750006CDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50DD2A692170D2750006CDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DD2A8B2170D3EF0006CDA8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		50E1845121931124004BAAF2 /* MarkbookMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkbookMasterTableViewController.swift; sourceTree = "<group>"; };
+		50E1845521931D76004BAAF2 /* Markbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markbook.swift; sourceTree = "<group>"; };
+		50E18457219333B2004BAAF2 /* MarkbookDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkbookDetailTableViewController.swift; sourceTree = "<group>"; };
+		50E1845921933B0D004BAAF2 /* MarkbookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkbookTableViewCell.swift; sourceTree = "<group>"; };
+		50EE80322174CF9D00E39453 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		578EEB574E67CBD749053E07 /* Pods-JetIQ-Student.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetIQ-Student.release.xcconfig"; path = "Pods/Target Support Files/Pods-JetIQ-Student/Pods-JetIQ-Student.release.xcconfig"; sourceTree = "<group>"; };
+		ED4D9EBA6611AB28B3E2AB2B /* Pods-JetIQ-Student.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JetIQ-Student.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JetIQ-Student/Pods-JetIQ-Student.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500AF0212195B2F5003E3E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500AF0262195B2F5003E3E0A /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DD2A522170D2740006CDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500AF0272195B2F5003E3E0A /* JetIQ-Schedule_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				500AF0382195BAE2003E3E0A /* JetIQ-Schedule_Widget.entitlements */,
+				500AF0282195B2F5003E3E0A /* TodayViewController.swift */,
+				500AF02A2195B2F5003E3E0A /* MainInterface.storyboard */,
+				500AF02D2195B2F5003E3E0A /* Info.plist */,
+				500AF03F2195CFA5003E3E0A /* Extensions.swift */,
+			);
+			path = "JetIQ-Schedule_Widget";
+			sourceTree = "<group>";
+		};
+		5011FCB92196F62800A2168A /* SuccessLog */ = {
+			isa = PBXGroup;
+			children = (
+				5011FCAF2196D36300A2168A /* SuccessLogMasterTableViewCell.swift */,
+				5011FCB72196E52800A2168A /* SeccessLogDetailTableViewCell.swift */,
+				5011FCB52196D53500A2168A /* SuccessLog.swift */,
+				5011FCB12196D3EF00A2168A /* SuccessLogMasterTableViewController.swift */,
+				5011FCB32196D4C100A2168A /* SuccessLogDetailTableViewController.swift */,
+			);
+			path = SuccessLog;
+			sourceTree = "<group>";
+		};
+		5011FCBA2196F64400A2168A /* Markbook */ = {
+			isa = PBXGroup;
+			children = (
+				50E1845521931D76004BAAF2 /* Markbook.swift */,
+				50E1845921933B0D004BAAF2 /* MarkbookTableViewCell.swift */,
+				50E18457219333B2004BAAF2 /* MarkbookDetailTableViewController.swift */,
+				50E1845121931124004BAAF2 /* MarkbookMasterTableViewController.swift */,
+			);
+			path = Markbook;
+			sourceTree = "<group>";
+		};
+		5011FCBB2196F66600A2168A /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				50665859218C780B001B561F /* Schedule.swift */,
+				50383BD2218A3E580078B6C7 /* SheduleTableViewCell.swift */,
+				500B17782189D4280013768E /* ScheduleTableViewController.swift */,
+				5004C41C21CD07C000D54D05 /* ScheduleHelpers.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		50DD2A4C2170D2730006CDA8 = {
+			isa = PBXGroup;
+			children = (
+				50DD2A572170D2740006CDA8 /* JetIQ-Student */,
+				500AF0272195B2F5003E3E0A /* JetIQ-Schedule_Widget */,
+				50DD2A562170D2740006CDA8 /* Products */,
+				9A3D3679924B4F984D94AEA8 /* Pods */,
+				6F97FF794C98D05DCD52FCC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50DD2A562170D2740006CDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50DD2A552170D2740006CDA8 /* JetIQ-Student.app */,
+				500AF0242195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50DD2A572170D2740006CDA8 /* JetIQ-Student */ = {
+			isa = PBXGroup;
+			children = (
+				5011FCBB2196F66600A2168A /* Schedule */,
+				5011FCB92196F62800A2168A /* SuccessLog */,
+				5011FCBA2196F64400A2168A /* Markbook */,
+				509D756521720D3C008C3AD1 /* LogInViewController.swift */,
+				509D75672172148C008C3AD1 /* LoginManager.swift */,
+				50DD2A582170D2740006CDA8 /* AppDelegate.swift */,
+				500B177A2189DC0F0013768E /* Updater.swift */,
+				505A1E14217F60C400D9B3ED /* HelperClasses.swift */,
+				504F8ADB2191FE6D00529D07 /* ScheduleInfoPopover.swift */,
+				501AA09B218DDAB000FB11FB /* UserSettingsTableViewController.swift */,
+				504F6147218B4FFA004B65AD /* SubgroupSelectorViewController.swift */,
+				503EC1E521834452002B9830 /* Extensions.swift */,
+				50EE80322174CF9D00E39453 /* Structs.swift */,
+				504F6145218B46EB004B65AD /* Settings.swift */,
+				50DD2A8B2170D3EF0006CDA8 /* TabBarController.swift */,
+				50A35E26218DC90100BDF1B0 /* SettingsTableViewController.swift */,
+				50DD2A642170D2750006CDA8 /* Assets.xcassets */,
+				50DD2A612170D2740006CDA8 /* Main.storyboard */,
+				50DD2A662170D2750006CDA8 /* LaunchScreen.storyboard */,
+				50DD2A692170D2750006CDA8 /* Info.plist */,
+				50DD2A5A2170D2740006CDA8 /* JetIQ_Student.xcdatamodeld */,
+				500AF0372195BA8D003E3E0A /* JetIQ-Student.entitlements */,
+				5004C42221CD0C8B00D54D05 /* Utility.swift */,
+			);
+			path = "JetIQ-Student";
+			sourceTree = "<group>";
+		};
+		6F97FF794C98D05DCD52FCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500AF0252195B2F5003E3E0A /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A3D3679924B4F984D94AEA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED4D9EBA6611AB28B3E2AB2B /* Pods-JetIQ-Student.debug.xcconfig */,
+				578EEB574E67CBD749053E07 /* Pods-JetIQ-Student.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500AF0232195B2F5003E3E0A /* JetIQ-Schedule_Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 500AF0332195B2F5003E3E0A /* Build configuration list for PBXNativeTarget "JetIQ-Schedule_Widget" */;
+			buildPhases = (
+				500AF0202195B2F5003E3E0A /* Sources */,
+				500AF0212195B2F5003E3E0A /* Frameworks */,
+				500AF0222195B2F5003E3E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JetIQ-Schedule_Widget";
+			productName = "JetIQ-Schedule_Widget";
+			productReference = 500AF0242195B2F5003E3E0A /* JetIQ-Schedule_Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		50DD2A542170D2740006CDA8 /* JetIQ-Student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50DD2A822170D2750006CDA8 /* Build configuration list for PBXNativeTarget "JetIQ-Student" */;
+			buildPhases = (
+				86BA36B7151CC8F23EA7801A /* [CP] Check Pods Manifest.lock */,
+				50DD2A512170D2740006CDA8 /* Sources */,
+				50DD2A522170D2740006CDA8 /* Frameworks */,
+				50DD2A532170D2740006CDA8 /* Resources */,
+				500AF0342195B2F5003E3E0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				500AF02F2195B2F5003E3E0A /* PBXTargetDependency */,
+			);
+			name = "JetIQ-Student";
+			productName = "JetIQ-Student";
+			productReference = 50DD2A552170D2740006CDA8 /* JetIQ-Student.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50DD2A4D2170D2730006CDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = VNTU;
+				TargetAttributes = {
+					500AF0232195B2F5003E3E0A = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					50DD2A542170D2740006CDA8 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 50DD2A502170D2730006CDA8 /* Build configuration list for PBXProject "JetIQ-Student" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50DD2A4C2170D2730006CDA8;
+			productRefGroup = 50DD2A562170D2740006CDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50DD2A542170D2740006CDA8 /* JetIQ-Student */,
+				500AF0232195B2F5003E3E0A /* JetIQ-Schedule_Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500AF0222195B2F5003E3E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500AF0422195DE30003E3E0A /* Assets.xcassets in Resources */,
+				500AF02C2195B2F5003E3E0A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DD2A532170D2740006CDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DD2A682170D2750006CDA8 /* LaunchScreen.storyboard in Resources */,
+				50DD2A652170D2750006CDA8 /* Assets.xcassets in Resources */,
+				50DD2A632170D2740006CDA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86BA36B7151CC8F23EA7801A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JetIQ-Student-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500AF0202195B2F5003E3E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5004C41F21CD09D400D54D05 /* Schedule.swift in Sources */,
+				5004C41E21CD09AB00D54D05 /* ScheduleHelpers.swift in Sources */,
+				5004C42121CD0BDB00D54D05 /* Settings.swift in Sources */,
+				5004C42021CD0A1100D54D05 /* HelperClasses.swift in Sources */,
+				500AF0402195CFA5003E3E0A /* Extensions.swift in Sources */,
+				500AF0392195BC13003E3E0A /* Structs.swift in Sources */,
+				500AF0362195B2F5003E3E0A /* SheduleTableViewCell.swift in Sources */,
+				500AF0292195B2F5003E3E0A /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DD2A512170D2740006CDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5004C42321CD0C8B00D54D05 /* Utility.swift in Sources */,
+				5004C41D21CD07C000D54D05 /* ScheduleHelpers.swift in Sources */,
+				50E18458219333B2004BAAF2 /* MarkbookDetailTableViewController.swift in Sources */,
+				50383BD4218A3E590078B6C7 /* SheduleTableViewCell.swift in Sources */,
+				5011FCB22196D3EF00A2168A /* SuccessLogMasterTableViewController.swift in Sources */,
+				5011FCB02196D36300A2168A /* SuccessLogMasterTableViewCell.swift in Sources */,
+				50E1845621931D76004BAAF2 /* Markbook.swift in Sources */,
+				501AA09C218DDAB000FB11FB /* UserSettingsTableViewController.swift in Sources */,
+				50EE80332174CF9D00E39453 /* Structs.swift in Sources */,
+				50E1845A21933B0D004BAAF2 /* MarkbookTableViewCell.swift in Sources */,
+				504F8ADC2191FE6D00529D07 /* ScheduleInfoPopover.swift in Sources */,
+				5011FCB42196D4C100A2168A /* SuccessLogDetailTableViewController.swift in Sources */,
+				5066585A218C780B001B561F /* Schedule.swift in Sources */,
+				50DD2A592170D2740006CDA8 /* AppDelegate.swift in Sources */,
+				50E1845221931125004BAAF2 /* MarkbookMasterTableViewController.swift in Sources */,
+				50DD2A5C2170D2740006CDA8 /* JetIQ_Student.xcdatamodeld in Sources */,
+				504F6146218B46EB004B65AD /* Settings.swift in Sources */,
+				505A1E15217F60C400D9B3ED /* HelperClasses.swift in Sources */,
+				504F6148218B4FFA004B65AD /* SubgroupSelectorViewController.swift in Sources */,
+				5011FCB82196E52800A2168A /* SeccessLogDetailTableViewCell.swift in Sources */,
+				509D75682172148C008C3AD1 /* LoginManager.swift in Sources */,
+				500B177B2189DC0F0013768E /* Updater.swift in Sources */,
+				503EC1E621834452002B9830 /* Extensions.swift in Sources */,
+				50A35E27218DC90100BDF1B0 /* SettingsTableViewController.swift in Sources */,
+				509D756621720D3C008C3AD1 /* LogInViewController.swift in Sources */,
+				50DD2A8C2170D3EF0006CDA8 /* TabBarController.swift in Sources */,
+				5011FCB62196D53500A2168A /* SuccessLog.swift in Sources */,
+				500B17792189D4280013768E /* ScheduleTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		500AF02F2195B2F5003E3E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500AF0232195B2F5003E3E0A /* JetIQ-Schedule_Widget */;
+			targetProxy = 500AF02E2195B2F5003E3E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		500AF02A2195B2F5003E3E0A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				500AF02B2195B2F5003E3E0A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		50DD2A612170D2740006CDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DD2A622170D2740006CDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50DD2A662170D2750006CDA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50DD2A672170D2750006CDA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		500AF0312195B2F5003E3E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4D9EBA6611AB28B3E2AB2B /* Pods-JetIQ-Student.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JetIQ-Schedule_Widget/JetIQ-Schedule_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UNQR4JR7;
+				INFOPLIST_FILE = "JetIQ-Schedule_Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VNTU.JetIQStudent.JetIQ-Schedule-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		500AF0322195B2F5003E3E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578EEB574E67CBD749053E07 /* Pods-JetIQ-Student.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JetIQ-Schedule_Widget/JetIQ-Schedule_Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UNQR4JR7;
+				INFOPLIST_FILE = "JetIQ-Schedule_Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "VNTU.JetIQStudent.JetIQ-Schedule-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50DD2A802170D2750006CDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4D9EBA6611AB28B3E2AB2B /* Pods-JetIQ-Student.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50DD2A812170D2750006CDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578EEB574E67CBD749053E07 /* Pods-JetIQ-Student.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50DD2A832170D2750006CDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4D9EBA6611AB28B3E2AB2B /* Pods-JetIQ-Student.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JetIQ-Student/JetIQ-Student.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UNQR4JR7;
+				INFOPLIST_FILE = "JetIQ-Student/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNTU.JetIQStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50DD2A842170D2750006CDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578EEB574E67CBD749053E07 /* Pods-JetIQ-Student.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JetIQ-Student/JetIQ-Student.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42UNQR4JR7;
+				INFOPLIST_FILE = "JetIQ-Student/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VNTU.JetIQStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		500AF0332195B2F5003E3E0A /* Build configuration list for PBXNativeTarget "JetIQ-Schedule_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500AF0312195B2F5003E3E0A /* Debug */,
+				500AF0322195B2F5003E3E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DD2A502170D2730006CDA8 /* Build configuration list for PBXProject "JetIQ-Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DD2A802170D2750006CDA8 /* Debug */,
+				50DD2A812170D2750006CDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50DD2A822170D2750006CDA8 /* Build configuration list for PBXNativeTarget "JetIQ-Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50DD2A832170D2750006CDA8 /* Debug */,
+				50DD2A842170D2750006CDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50DD2A5A2170D2740006CDA8 /* JetIQ_Student.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50DD2A5B2170D2740006CDA8 /* JetIQ_Student.xcdatamodel */,
+			);
+			currentVersion = 50DD2A5B2170D2740006CDA8 /* JetIQ_Student.xcdatamodel */;
+			path = JetIQ_Student.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50DD2A4D2170D2730006CDA8 /* Project object */;
+}
