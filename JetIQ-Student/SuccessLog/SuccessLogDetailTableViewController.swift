@@ -79,7 +79,7 @@ weak var activityIndicatorView: UIActivityIndicatorView!
         // #warning Incomplete implementation, return the number of sections
         if SL_Detail == nil
         {
-            return 0
+            return 3
         }
         return 3
     }
@@ -256,6 +256,7 @@ weak var activityIndicatorView: UIActivityIndicatorView!
                 m_task.resume()
             }
             dataTask.resume()
+            
             
         }
     }
