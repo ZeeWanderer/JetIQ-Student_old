@@ -259,7 +259,7 @@ class Updater
     {
         let day = sched.days[0]
         let encoder = JSONEncoder()
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         //let defaults_s = UserDefaults.standard
         if let encoded = try? encoder.encode(day)
         {

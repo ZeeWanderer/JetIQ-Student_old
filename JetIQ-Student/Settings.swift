@@ -18,7 +18,7 @@ class Settings
     
     func LoadSettings()
     {
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         let decoder = JSONDecoder()
         if let savedAdditionalUserData = defaults.object(forKey: "UserSettings") as? Data
         {
@@ -37,7 +37,7 @@ class Settings
     func SaveSettings()
     {
         let encoder = JSONEncoder()
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         if let encoded = try? encoder.encode(self.user_settings)
         {
             defaults.set(encoded, forKey: "UserSettings")
@@ -46,7 +46,7 @@ class Settings
     func DeleteSettings()
     {
         self.user_settings = nil
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         defaults.removeObject(forKey: "UserSettings")
     }
     

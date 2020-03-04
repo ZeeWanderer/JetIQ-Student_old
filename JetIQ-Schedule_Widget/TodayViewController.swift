@@ -71,7 +71,7 @@ class TodayViewController: UITableViewController, NCWidgetProviding {
     
     func GetData()
     {
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         let decoder = JSONDecoder()
         if let savedPerson = defaults.object(forKey: "UserData") as? Data
         {
@@ -130,7 +130,7 @@ class TodayViewController: UITableViewController, NCWidgetProviding {
         let year = ".\(calendar.component(.year, from: date))T18:45"
         let sect_date = formatter.date(from: day!.date + year)!
         
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         let decoder = JSONDecoder()
         var userData:UserData? = nil
         var userSettings:UserSettings? = nil
@@ -222,7 +222,7 @@ class TodayViewController: UITableViewController, NCWidgetProviding {
                             self.day = Day(day: DayValue, idx:Int(dayKey)!)
                             
                             let encoder = JSONEncoder()
-                            let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+                            let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
                             //let defaults_s = UserDefaults.standard
                             if let encoded = try? encoder.encode(self.day)
                             {

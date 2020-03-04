@@ -101,7 +101,7 @@ class LoginManager{
                                 
                                 
                                 let encoder = JSONEncoder()
-                                let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+                                let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
                                 if let encoded = try? encoder.encode(self.user_data)
                                 {
                                     defaults.set(encoded, forKey: "UserData")
@@ -230,7 +230,7 @@ class LoginManager{
     
     func LoadUserLogIn() -> Bool
     {
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         let decoder = JSONDecoder()
         if let savedPerson = defaults.object(forKey: "UserData") as? Data
         {
@@ -263,7 +263,7 @@ class LoginManager{
     
     func DeleteData()
     {
-        let defaults = UserDefaults(suiteName: "group.JetIQ-Student")!
+        let defaults = UserDefaults(suiteName: "group.JetIQ.Student")!
         defaults.removeObject(forKey: "UserData")
         defaults.removeObject(forKey: "UserCredentials")
         
