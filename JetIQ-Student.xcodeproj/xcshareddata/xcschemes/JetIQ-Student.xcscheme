@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "500AF0232195B2F5003E3E0A"
-               BuildableName = "JetIQ-Schedule_Widget.appex"
+               BuildableName = "JetIQ-Schedule.appex"
                BlueprintName = "JetIQ-Schedule_Widget"
                ReferencedContainer = "container:JetIQ-Student.xcodeproj">
             </BuildableReference>

@@ -490,6 +490,7 @@
 				CODE_SIGN_ENTITLEMENTS = "JetIQ-Schedule_Widget/JetIQ-ScheduleDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2H5SN3R8CC;
 				INFOPLIST_FILE = "JetIQ-Schedule_Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -498,7 +499,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "five.systems.development.VNTU.JetIQStudent.JetIQ-Schedule-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQ.widgetschedule;
 				PRODUCT_NAME = "JetIQ-Schedule";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -513,6 +514,7 @@
 				CODE_SIGN_ENTITLEMENTS = "JetIQ-Schedule_Widget/JetIQ-Schedule_Widget.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2H5SN3R8CC;
 				INFOPLIST_FILE = "JetIQ-Schedule_Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -521,7 +523,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "five.systems.development.VNTU.JetIQStudent.JetIQ-Schedule-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQ.widgetschedule;
 				PRODUCT_NAME = "JetIQ-Schedule";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -581,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -637,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -656,6 +658,7 @@
 				CODE_SIGN_ENTITLEMENTS = "JetIQ-Student/JetIQ-StudentDebug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2H5SN3R8CC;
 				INFOPLIST_FILE = "JetIQ-Student/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -663,7 +666,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQStudent;
+				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -680,6 +683,7 @@
 				CODE_SIGN_ENTITLEMENTS = "JetIQ-Student/JetIQ-Student.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 2H5SN3R8CC;
 				INFOPLIST_FILE = "JetIQ-Student/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -687,7 +691,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQStudent;
+				PRODUCT_BUNDLE_IDENTIFIER = five.systems.development.VNTU.JetIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
